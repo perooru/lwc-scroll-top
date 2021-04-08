@@ -1,0 +1,25 @@
+
+.container{
+	display: flex;
+	justify-content: center;
+	height: 24px;
+	vertical-align: middle;
+	position: sticky;
+	position: -webkit-sticky;
+	bottom: 0;
+    overflow: hidden; 
+}
+.scrollToTopClass {
+	background-color: #006dcc;
+	color: white;
+	font-weight: normal;
+	border-radius: 160px;
+	cursor: pointer;
+}
+.myClass{
+    overflow-y: scroll;
+    height:600px;
+    padding:20px;
+    scroll-behavior: smooth;
+    font-size:1rem;
+}
